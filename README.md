@@ -1,7 +1,12 @@
 # Detecção de Anomalias em Transações em Python
 
-Projeto final do Bootcamp de Dados — DIO Afya Dados.  
-Detecção de fraudes bancárias em transações com cartão de crédito usando técnicas de Machine Learning supervisionado e não-supervisionado.
+Esse projeto foi desenvolvido como desafio final do bloco de análise de dados do bootcamp Afya Dados na DIO. O objetivo foi construir um sistema de detecção de fraudes bancárias usando machine learning em Python.
+
+O maior desafio foi lidar com os dados desbalanceados — menos de 0,2% das transações são fraudes, o que faz qualquer modelo parecer bom só pela acurácia. Aprendi na prática que acurácia não serve pra esse tipo de problema e passei a usar ROC-AUC, Precision e Recall.
+
+Testei diferentes abordagens: undersampling manual, SMOTE pra criar amostras sintéticas de fraude e o parâmetro `class_weight='balanced'` no Random Forest. Também usei RandomizedSearchCV pra encontrar os melhores hiperparâmetros e SHAP pra entender quais variáveis mais influenciaram as previsões.
+
+No final, todos os modelos passaram de 0.96 de ROC-AUC, o que mostrou que a combinação de balanceamento com Random Forest funciona bem nesse tipo de dado.
 
 ---
 
