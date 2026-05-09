@@ -1,6 +1,6 @@
 # Detecção de Anomalias em Transações em Python
 
-Projeto final do Bootcamp de Dados — DIO/Anhanguera.  
+Projeto final do Bootcamp de Dados — DIO Afya Dados.  
 Detecção de fraudes bancárias em transações com cartão de crédito usando técnicas de Machine Learning supervisionado e não-supervisionado.
 
 ---
@@ -93,4 +93,4 @@ Ou abra diretamente no VS Code com a extensão **Jupyter**.
 ## Autoria
 
 Projeto desenvolvido como Desafio Final do bloco **Python Aplicado à Análise de Dados**  
-Bootcamp Afya Dados — DIO / Anhanguera — 2026
+Bootcamp Afya Dados — DIO — 2026
