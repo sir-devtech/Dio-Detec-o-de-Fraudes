@@ -1,0 +1,29 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Capturas de tela (não necessárias no repo)
+Captura de tela*.png
+*.png
+
+# Dados locais (dataset é baixado automaticamente via URL)
+*.csv
+data/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
